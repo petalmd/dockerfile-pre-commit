@@ -1,0 +1,7 @@
+-   id: dockerlint
+    name: Dockerfile lint
+    description: Dockerfile lint with hadolint
+    entry: lint.sh
+    language: script
+    files: Dockerfile
+
