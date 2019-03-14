@@ -4,7 +4,7 @@ set -o errexit
 set -o pipefail
 set -o nounset
 
-echo 'Begin hadolint'
+export PATH=$PATH:/usr/local/bin
 
 if ! which hadolint &>/dev/null; then
     >&2 echo 'hadolint command not found'
