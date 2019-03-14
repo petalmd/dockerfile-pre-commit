@@ -1,7 +1,6 @@
 -   id: dockerlint
-    name: Dockerfile lint
+    name: Dockerfile lint with hadolint
     description: Dockerfile lint with hadolint
     entry: lint.sh
     language: script
     files: Dockerfile
-
