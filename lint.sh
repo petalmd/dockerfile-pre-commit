@@ -30,5 +30,4 @@ if ! command -v hadolint >/dev/null; then
     fi
 fi
 
-set -x
 $CMD "$@"
